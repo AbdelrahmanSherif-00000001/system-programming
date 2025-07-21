@@ -14,6 +14,18 @@ int main(int argc, char *argv[])
 { 
     DIR *dir;
     struct dirent *entry;
+    
+    char path[256];
+    printf("Enter the directory you want to work in: ");
+    scanf("%s", path);
+
+    // Change to the user-specified directory
+    if (chdir(path) != 0) {
+        perror("Failed to change directory");
+        return 1;
+    }
+
+    printf("Changed to directory: %s\n", path);
 
     int choice;
     char filename[64];
