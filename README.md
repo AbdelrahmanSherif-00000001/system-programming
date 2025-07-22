@@ -5,5 +5,5 @@ This a basic CLI file manager, enable you to:
  This will work on LINUX/macOS or linux_based terminals that work on windows 
 
 To be able to use it:
- 1 =>Compile it as next: gcc file_access.c -o <name_you_want> // just make sure you installed GCC "install using: sudo apt install gcc"
- 2 =>Run it as next: ./<nameYouHaveChosen>
+ 1 ==> Determine the folder/DIR,  2 ==> Compile it as next: gcc file_access.c -o <name_you_want> // just make sure you installed GCC "install using: sudo apt install gcc"
+ 3 ==> Run it as next: ./<nameYouHaveChosen>
