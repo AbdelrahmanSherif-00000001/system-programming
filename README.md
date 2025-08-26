@@ -6,6 +6,8 @@ I will work to enhance edit and make it more user-friendly and also add GUI. <br
 <br>to compile: gcc file_manipulator.c -o v 
 <br>to run: ./v <br>
 
+<br><br>
+Now at v3 you can edit by determining the line number then edit it and it will be saved
 compile and run v3:
 <br> compile: gcc FMv2.c -lreadline -o fm       we use -lreadline due to the usage of <readline/readline.h>, so we need to link and compile it  
 <br> run: ./fm
